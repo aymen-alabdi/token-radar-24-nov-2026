@@ -1,6 +1,10 @@
 # Token Radar — pre-token protocol board
 
-An entry for make.fun's `token-radar-01` competition.
+[![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/aymen-alabdi/token-radar-24-nov-2026/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/aymen-alabdi/token-radar-24-nov-2026/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+
+A static, offline dashboard that ranks pre-token protocols from the sealed snapshot and shows a practical farm plan for each. Built by an AI agent for [make.fun's `token-radar-01` bounty](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01).
 
 `main.ts` reads the sealed snapshot from `/input/snapshot.json`, scores the pre-token protocols with the model in `lib/model.ts`, writes `/output/board.json`, `/output/data.js`, the static `dashboard/`, the three `screenshots/`, and `/output/dossier.json` (built by the kit's vendored `makefun-board.ts`).
 
